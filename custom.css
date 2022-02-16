@@ -1,0 +1,1121 @@
+body {
+  background-color: black;
+}
+
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 1rem 2rem;
+  font-family: "Special Elite", cursive;
+  font-size: larger;
+  background-color: black;
+  margin: 0;
+}
+
+.nav-logo {
+  width: 150;
+  height: 40;
+}
+
+/* .butn:hover {
+  background-color: aqua;
+} */
+
+.end {
+  justify-content: flex-end;
+  padding-left: 2rem;
+}
+
+.nav-list {
+  display: flex;
+  padding-top: 0.25rem;
+}
+
+.what {
+  color: white;
+  font-size: 170px;
+  font-weight: 900;
+  font-family: "Raleway", sans-serif;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  bottom: -200px;
+}
+.bo {
+  position: absolute;
+  width: 100%;
+  bottom: -120px;
+}
+
+.we-do {
+  color: black;
+  font-size: 170px;
+  font-weight: 900;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.book-online {
+  color: white;
+  font-size: larger;
+  margin-left: 2rem;
+  font-family: "Special Elite", cursive;
+  margin-bottom: 0;
+}
+
+.text-holder {
+  width: 14rem;
+  height: 3rem;
+  background-color: rgba(27, 26, 26, 0.89);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-family: "Special Elite", cursive;
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.text-holder:hover {
+  background-color: rgba(202, 190, 190, 0.89);
+  width: 14.1rem;
+  height: 3.1;
+  cursor: pointer;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.our-services {
+  font-size: 50px;
+  font-weight: 900;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  margin-left: 15rem;
+  margin-bottom: 12rem;
+  position: absolute;
+}
+
+.section2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our-services2 {
+  margin-top: 4rem;
+  font-size: 70px;
+  font-weight: 800;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.text-holder2 {
+  width: 18rem;
+  height: 5rem;
+  background-color: rgba(27, 26, 26, 0.89);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-family: "Special Elite", cursive;
+  font-size: 30px;
+  margin-bottom: 1rem;
+}
+
+/* .text-holder2:hover {
+  background-color: aqua;
+  width: 26rem;
+} */
+
+.beautify {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  font-size: 216px;
+  z-index: 1;
+  font-weight: bold;
+  color: yellow;
+  font-family: "Raleway", sans-serif;
+  text-shadow: 2px 2px #000000;
+  transform: rotate(90deg);
+  margin-top: 30rem;
+  margin-left: 8rem;
+}
+
+.text-container {
+  width: 50rem;
+  height: 10rem;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px transparent solid;
+  color: white;
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  font-family: "Special Elite", cursive;
+  font-size: large;
+  margin-top: 45rem;
+}
+
+.text-container2 {
+  width: 25rem;
+  height: 13rem;
+  background: rgba(0, 0, 0, 0.1);
+  border: 2px transparent solid;
+  color: white;
+  padding: 1rem 0rem;
+  padding-left: 5.5rem;
+  margin-bottom: 2rem;
+  display: flex;
+  font-family: "Special Elite", cursive;
+  font-size: large;
+  margin-top: 12rem;
+}
+
+.lorem-for-beauty {
+  display: flex;
+  justify-content: center;
+}
+
+.line {
+  border-left: 16px solid yellow;
+  height: 1500px;
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.5rem;
+}
+
+.gallery-container {
+  display: flex;
+  color: white;
+  justify-content: flex-start;
+  flex-direction: column;
+  /* //   align-items: center; */
+  margin-top: 6rem;
+  text-align: start;
+  max-width: 26rem;
+  margin-left: 2rem;
+}
+
+.gallery {
+  font-size: 70px;
+  font-weight: 900;
+  margin-right: 3rem;
+}
+
+.selected-gallery {
+  border: 5px solid yellow;
+  display: flex;
+  justify-content: space-between;
+}
+
+.three {
+  font-size: 45px;
+  font-family: "Special Elite", cursive;
+  margin-left: 0.25rem;
+}
+
+.lorem {
+  font-size: 24px;
+  font-family: "Special Elite", cursive;
+  margin-top: 0.5rem;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.more-btn {
+  color: white;
+  font-family: "Special Elite", cursive;
+  font-size: 18px;
+  padding: 0.6rem 2rem;
+  border: 5px solid yellow;
+  font-weight: 500;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.gallery-box {
+  background: rgba(0, 0, 0, 0.5);
+  width: 12rem;
+  height: 9rem;
+  padding: 1rem 1rem;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.style-masters {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.country {
+  font-weight: 400;
+  font-size: 20px;
+}
+/* // .hidden-text {
+//   font-size: 80px;
+//   font-weight: 600;
+//   color: white;
+//   display: flex;
+//   justify-content: center;
+//   margin-left: 9rem;
+//   flex-direction: column;
+// }
+
+// .lean {
+//   border-left: yellow 8px solid;
+//   height: 8rem;
+// } */
+
+.gallery-box-country {
+  background: rgba(0, 0, 0, 0.5);
+  width: 12rem;
+  height: 9rem;
+  padding: 1rem 2rem;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-boxes {
+  flex-direction: column;
+  margin-bottom: 15rem;
+  margin-left: 5rem;
+}
+
+.media {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8rem;
+  flex-direction: column;
+}
+
+.media-text {
+  font-size: 80px;
+  color: white;
+  font-weight: 800;
+  margin-right: 1rem;
+}
+
+.media-content {
+  height: 600px;
+  width: 900px;
+  background: rgba(0, 0, 0, 0.5);
+  margin-right: 6rem;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem;
+}
+
+.utube {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+}
+
+.utube-text {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Special Elite", cursive;
+  color: white;
+  margin-left: 1rem;
+}
+
+.liner {
+  display: flex;
+  justify-content: center;
+}
+
+.line2 {
+  /* // z-index: -1;
+  // position: absolute;
+  // left: 0;
+  // top: 0; */
+  border-left: 16px solid yellow;
+  height: 740px;
+  margin-left: 11.23rem;
+}
+
+.men-holder {
+  display: flex;
+  justify-content: center;
+  text-align: start;
+  margin-top: 5rem;
+  margin-left: 8rem;
+}
+
+.men-text {
+  color: white;
+  font-size: 80px;
+  font-weight: 800;
+  /* // margin-left: 2rem; */
+}
+
+.vertical-line {
+  border-right: 12px blue solid;
+  height: 600px;
+  display: flex;
+  /* // justify-content: flex-end; */
+  padding-top: 2rem;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 8rem;
+}
+
+.selected-man {
+  border: 5px solid blue;
+  display: flex;
+  justify-content: space-between;
+}
+
+.men-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 40rem;
+  margin-left: 3rem;
+}
+
+.men-btn {
+  border-radius: none;
+  padding: 0.6rem 2rem;
+  color: white;
+  font-family: "Special Elite", cursive;
+  font-size: 20px;
+  border: 3px solid blue;
+  /* // margin-bottom: 9rem; */
+}
+
+.style-hive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.style-hive-text {
+  font-size: 70px;
+  font-family: "Special Elite", cursive;
+  color: white;
+  margin-top: 2rem;
+  line-height: 0.6;
+  margin-bottom: 1rem;
+}
+
+.good-hair-text {
+  color: rgb(211, 60, 143);
+  font-family: "Special Elite", cursive;
+  font-size: 30px;
+}
+
+.sh-text {
+  color: white;
+  font-size: 25px;
+  font-family: "Special Elite", cursive;
+  margin-top: 1rem;
+}
+
+.membrshp-btn {
+  border: rgb(211, 60, 143) solid 3px;
+  font-family: "Special Elite", cursive;
+  color: white;
+  padding: 0.9rem 1rem;
+  font-size: 28px;
+  border-radius: 0;
+  width: 350px;
+  font-weight: 100;
+}
+
+.recorte {
+  display: flex;
+  flex-direction: column;
+  /* // align-items: center; */
+  justify-content: center;
+  /* // margin-right: 0.1rem; */
+}
+
+.about-me {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  margin-top: 6rem;
+}
+
+.about-me-text {
+  font-size: 110px;
+  font-weight: 500;
+  font-family: "Special Elite", cursive;
+  margin-left: 4rem;
+}
+
+.about-me-desc {
+  font-size: 25px;
+  font-weight: 200;
+  font-family: "Special Elite", cursive;
+  /* // text-align: center; */
+  margin-left: 9rem;
+}
+
+.read-more {
+  font-size: 40px;
+  font-weight: 200;
+  font-family: "Special Elite", cursive;
+  color: rgb(212, 51, 83);
+  margin-right: 14rem;
+}
+
+.custom-row-bl {
+  height: 100vh;
+}
+
+.house-rules {
+  font-size: 100px;
+  font-family: "Special Elite", cursive;
+  font-weight: 200;
+  color: rgb(212, 51, 83);
+}
+
+.house-rules-text {
+  color: white;
+  font-size: 20px;
+  font-family: "Special Elite", cursive;
+  font-weight: 200;
+}
+
+.signature {
+  font-family: "Birthstone Bounce", cursive;
+  font-size: 50px;
+  color: white;
+  text-align: end;
+}
+
+.black {
+  height: 70vh;
+}
+
+.contact {
+  /* // align-items: center; */
+  justify-content: center;
+  display: flex;
+  margin-top: 6rem;
+}
+
+.contact {
+  /* // align-items: center; */
+  justify-content: center;
+  display: flex;
+  margin-top: 6rem;
+}
+
+.contact-text {
+  font-size: 70px;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+}
+
+.media-links {
+  display: flex;
+  flex-direction: column;
+  margin-left: 6rem;
+}
+
+.media-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.social-text {
+  color: white;
+  /* // padding-top: 20px; */
+  font-size: 18px;
+  font-family: "Special Elite", cursive;
+}
+
+.mail {
+  border-left: 6px solid white;
+  height: 220px;
+  margin-left: 6rem;
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "Special Elite", cursive;
+  font-weight: 400;
+  font-size: 18px;
+  padding-left: 2rem;
+}
+
+.element1 {
+  background-image: url("./assets/chloe-mob.jpg");
+  height: 110vh;
+  background-size: 420px 930px;
+}
+
+.element2 {
+  background-image: url("./assets/davidrae-mob.jpg");
+  height: 80vh;
+  background-size: cover;
+}
+
+.element3 {
+  background-image: url("./assets/my-photo3.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.element4 {
+  background-image: url("./assets/my-photo.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+
+.element5 {
+  background-image: url("./assets/173836.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+
+.element6 {
+  background-image: url("./assets/my-photo4.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+
+.element7 {
+  background-image: url("./assets/173836.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+
+.element8 {
+  background-image: url("./assets/recardo.jpg");
+  height: 100vh;
+  background-size: 420px 844px;
+  background-repeat: no-repeat;
+}
+
+.element9 {
+  background-image: url("./assets/173836.jpg");
+  height: 180vh;
+  background-size: cover;
+}
+
+.element10 {
+  background-image: url("./assets/173836.jpg");
+  height: 40vh;
+  background-size: cover;
+}
+
+@media (min-width: 600px) {
+  .element1 {
+    background-image: url("./assets/chloe.png");
+    /* // height: 600px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .element2 {
+    background-image: url("./assets/what-we-do4.png");
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .element3 {
+    background-image: url("./assets/what-we-do5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+  }
+
+  .element4 {
+    background-image: url("./assets/image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+  }
+
+  .element5 {
+    background-image: url("./assets/chloe-camera.png");
+    height: 100vh;
+    background-size: cover;
+  }
+
+  .element6 {
+    background-image: url("./assets/Men-section.png");
+    height: 100vh;
+    background-size: cover;
+  }
+
+  .element7 {
+    background-image: url("./assets/style-hive.png");
+    height: 100vh;
+    background-size: cover;
+  }
+
+  .element8 {
+    background-image: url("./assets/my-photo6.jpg");
+    height: 100vh;
+    background-size: cover;
+  }
+
+  .element9 {
+    background-image: url("./assets/173836.jpg");
+    height: 120vh;
+    background-size: cover;
+  }
+
+  .element10 {
+    background-image: url("./assets/173836.jpg");
+    height: 40vh;
+    background-size: cover;
+  }
+
+  .text-container2 {
+    display: none;
+  }
+  .section2 {
+    display: none;
+  }
+}
+
+@media (max-width: 1100px) {
+  .media-content {
+    height: 600px;
+    width: 700px;
+    margin-right: 6rem;
+    padding: 1rem 1rem;
+  }
+  .utube {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 3rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .utube-text {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Special Elite", cursive;
+    color: white;
+    margin-left: 1rem;
+  }
+
+  .media-text {
+    margin-right: 1rem;
+  }
+  .line2 {
+    height: 740px;
+    margin-left: 5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .content {
+    padding: 1rem 2rem;
+  }
+  .nav-log {
+    width: 200px;
+    height: 20px;
+  }
+  .bo {
+    bottom: -30px;
+    margin-left: 20px;
+  }
+  .what {
+    font-size: 60px;
+    font-weight: 600;
+    bottom: -180px;
+    /* // position: static; */
+  }
+  .we-do {
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 600;
+    /* // margin-left: 20px; */
+  }
+  .section {
+    display: none;
+  }
+  .beautify {
+    position: static;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 80px;
+    margin-top: 1rem;
+    margin-left: 0;
+    margin-right: 18rem;
+  }
+  .lorem-for-beauty {
+    display: none;
+  }
+  .gallery-container {
+    display: none;
+  }
+  .more-btn {
+    display: none;
+  }
+  .gallery-boxes {
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    margin-top: 21rem;
+  }
+  .gallery-box-country {
+    background: rgba(0, 0, 0, 0.8);
+    margin-top: 12.25rem;
+    margin-left: 8rem;
+  }
+  .gallery-box {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  .gallery {
+    display: flex;
+  }
+  .media-content {
+    height: 300px;
+    width: 300px;
+    margin-right: 6rem;
+    padding: 1rem 1rem;
+  }
+  .utube-text {
+    display: none;
+  }
+  .line2 {
+    margin-left: 0rem;
+    height: 0;
+    margin: 0;
+  }
+  .media-text {
+    margin-left: 2rem;
+  }
+  .i-frame {
+    width: 500px;
+    height: 200px;
+  }
+  .i-frame-n {
+    display: none;
+  }
+  .utube {
+    margin-left: 0rem;
+  }
+  .men-holder {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0rem;
+    margin-left: 0rem;
+    margin-right: 10rem;
+  }
+
+  .men-text {
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    /* // margin-left: 2rem; */
+  }
+  .men-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 48rem;
+    margin-left: 8rem;
+  }
+
+  .men-btn {
+    border-radius: none;
+    padding: 0.6rem 2rem;
+    color: white;
+    font-family: "Special Elite", cursive;
+    font-size: 20px;
+    border: 3px solid blue;
+    /* // margin-bottom: 9rem; */
+  }
+  .s {
+    color: blue;
+  }
+  .style-hive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 3.5rem;
+    border: white 2px solid;
+    width: 20rem;
+    height: 40rem;
+  }
+
+  .style-hive-text {
+    font-size: 40px;
+    font-family: "Special Elite", cursive;
+    color: white;
+    margin-top: 0rem;
+    line-height: 0.8;
+    margin-bottom: 1rem;
+  }
+
+  .good-hair-text {
+    color: rgb(211, 60, 143);
+    font-family: "Special Elite", cursive;
+    font-size: 20px;
+  }
+
+  .sh-text {
+    color: white;
+    font-size: 20px;
+    font-family: "Special Elite", cursive;
+    margin-top: 1rem;
+  }
+
+  .membrshp-btn {
+    border: rgb(211, 60, 143) solid 3px;
+    font-family: "Special Elite", cursive;
+    color: white;
+    padding: 0.5rem 0.5rem;
+    font-size: 20px;
+    border-radius: 0;
+    width: 250px;
+    font-weight: 100;
+  }
+  .recorte {
+    display: flex;
+    flex-direction: column;
+    /* // align-items: center; */
+    justify-content: center;
+    /* // margin-right: 0.1rem; */
+  }
+
+  .about-me {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-top: 0rem;
+    margin-bottom: 6rem;
+    width: 100%;
+  }
+
+  .about-me-text {
+    font-size: 60px;
+    font-weight: 300;
+    font-family: "Special Elite", cursive;
+    margin-left: 0rem;
+  }
+
+  .about-me-desc {
+    font-size: 18px;
+    font-weight: 200;
+    font-family: "Special Elite", cursive;
+    /* // text-align: center; */
+    margin-left: 0rem;
+    background: rgba(0, 0, 0, 0.8);
+    margin-top: 24rem;
+  }
+
+  .read-more {
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Special Elite", cursive;
+    color: rgb(212, 51, 83);
+    margin-right: 0rem;
+  }
+
+  .custom-row-bl {
+    height: 100vh;
+  }
+
+  .house-rules {
+    font-size: 40px;
+    font-family: "Special Elite", cursive;
+    font-weight: 100;
+    color: rgb(212, 51, 83);
+    margin-left: 5rem;
+  }
+
+  .house-rules-text {
+    color: white;
+    font-size: 20px;
+    font-family: "Special Elite", cursive;
+    font-weight: 100;
+  }
+
+  .signature {
+    font-family: "Birthstone Bounce", cursive;
+    font-size: 50px;
+    color: white;
+    text-align: end;
+  }
+
+  .black {
+    height: 70vh;
+  }
+  .contact {
+    /* // align-items: center; */
+    justify-content: center;
+    display: flex;
+    margin-top: 6rem;
+  }
+
+  .contact-text {
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+  }
+
+  .media-links {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+  }
+
+  .media-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .social-text {
+    color: white;
+    /* // padding-top: 20px; */
+    font-size: 24px;
+    font-family: "Special Elite", cursive;
+  }
+  .mail {
+    border-left: none;
+    border-top: 8px solid white;
+    height: 220px;
+    width: 220px;
+    margin-left: 0rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Special Elite", cursive;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 2rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .vertical-line {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    max-width: 400px;
+  }
+}
+
+.modal-dialog {
+  /* // max-width: 800px; */
+  margin: 30px auto;
+  /* // width: 90%; */
+  /* // height: 100%; */
+}
+
+.modal-body {
+  position: relative;
+  padding: 0px;
+}
+.close {
+  position: absolute;
+  right: -30px;
+  top: 0;
+  z-index: 999;
+  font-size: 2rem;
+  font-weight: normal;
+  color: none;
+  opacity: 1;
+}
+
+.modal-holder {
+  background-color: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.ifiram {
+  width: 750px;
+  height: 450px;
+}
+
+.modal-btn {
+  background-color: #000000;
+  color: rgb(151, 58, 58);
+}
+
+.modal-content {
+  background-color: #000000;
+}
+
+.img-btn {
+  background-color: #000000;
+  padding: 0;
+}
+.img-resp {
+  width: 200px;
+  height: 120px;
+}
+
+@media (max-width: 600px) {
+  .ifiram {
+    width: 320px;
+    height: 350px;
+  }
+
+  .modal-content {
+    background-color: black;
+    width: 320px;
+  }
+  .img-resp {
+    width: 110%;
+    height: auto;
+  }
+}
